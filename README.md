@@ -1,1 +1,1 @@
-# lichess-tui
+# Horsey Api
