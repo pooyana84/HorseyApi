@@ -1,3 +1,3 @@
-module github.com/pooyana84/HorseyApi
+module github.com/pooyana84/horseyapi
 
 go 1.20
