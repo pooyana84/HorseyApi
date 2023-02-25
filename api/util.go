@@ -4,6 +4,8 @@ import "net/http"
 import "io"
 import "log"
 
+var LichessUrl string = "https://lichess.org"
+
 func checkErr(err error) {
 	if (err != nil) {
 		log.Fatal(err)
