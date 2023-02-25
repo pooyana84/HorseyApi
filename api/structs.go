@@ -129,5 +129,5 @@ type Preferences struct {
 }
 
 type Kid struct {
-	kid bool
+	Kid bool
 }
