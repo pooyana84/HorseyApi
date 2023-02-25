@@ -60,7 +60,7 @@ func (kid *Kid) GetKidMode (token string, client *http.Client) (string) {
 }
 
 func SetKidMode (v bool, token string, client *http.Client) (string) {
-	request, err := NewRequest(token, "POST", LichessUrl + "api/account/kid", nil)
+	request, err := NewRequest(token, "POST", LichessUrl + "/api/account/kid", nil)
 	checkErr(err)
 	urlData := request.URL.Query()
 	urlData.Add("v", strconv.FormatBool(v))
