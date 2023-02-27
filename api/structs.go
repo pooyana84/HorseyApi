@@ -1,5 +1,12 @@
 package api
 
+import "net/http"
+
+type Session struct {
+	Client *http.Client
+	Token string
+}
+
 type Perf struct {
 	Games int
 	Rating int

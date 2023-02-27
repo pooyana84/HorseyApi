@@ -25,3 +25,8 @@ func NewClient() (*http.Client) {
 	var client *http.Client = &http.Client{Transport : transport}
 	return client
 }
+/*
+func NewSession(session_token string) (*Session) {
+	return *Session {client : NewClient(), token : session_token}
+}
+*/
